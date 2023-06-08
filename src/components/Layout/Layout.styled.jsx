@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   max-width: 991px;
@@ -13,7 +13,7 @@ export const Container = styled.div`
 
 export const Header = styled.header`
   width: 100%;
-  height: 70px;
+  height: 120px;
   background-color: #cccccc;
 `;
 

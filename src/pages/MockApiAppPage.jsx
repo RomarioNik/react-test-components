@@ -1,7 +1,5 @@
-import MockApiApp from '../components/MockApi/';
+import MockApiApp from "../components/MockApi/";
 
-const MockApiAppPage = () => {
+export const MockApiAppPage = () => {
   return <MockApiApp />;
 };
-
-export default MockApiAppPage;

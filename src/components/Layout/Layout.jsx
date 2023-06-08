@@ -1,6 +1,6 @@
-import { Suspense } from 'react';
-import { Outlet, NavLink } from 'react-router-dom';
-import { Container, Header, Nav, List } from './Layout.styled';
+import { Suspense } from "react";
+import { Outlet, NavLink } from "react-router-dom";
+import { Container, Header, Nav, List } from "./Layout.styled";
 
 export const Layout = () => {
   return (
@@ -56,6 +56,12 @@ export const Layout = () => {
               </li>
               <li>
                 <NavLink to="/todoapp">TodoApp</NavLink>
+              </li>
+              <li>
+                <NavLink to="/todoredux">TodoRedux</NavLink>
+              </li>
+              <li>
+                <NavLink to="/todoreduxtolkit">TodoReduxTolkit</NavLink>
               </li>
             </List>
           </Nav>
