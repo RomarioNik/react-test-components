@@ -63,6 +63,11 @@ export const Layout = () => {
               <li>
                 <NavLink to="/todoreduxtolkit">TodoReduxTolkit</NavLink>
               </li>
+              <li>
+                <NavLink to="/todoreduxtoolkitasync">
+                  TodoReduxTolkitAsync
+                </NavLink>
+              </li>
             </List>
           </Nav>
         </Container>

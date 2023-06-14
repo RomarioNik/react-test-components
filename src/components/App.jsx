@@ -25,6 +25,7 @@ import {
   TodoAppPage,
   TodoReduxAppPage,
   TodoReduxTolkitAppPage,
+  TodoReduxToolkitAsyncPage,
   VideoListPage,
 } from "../pages";
 
@@ -76,6 +77,10 @@ const App = () => {
         <Route path="todoapp" element={<TodoAppPage />} />
         <Route path="todoredux" element={<TodoReduxAppPage />} />
         <Route path="todoreduxtolkit" element={<TodoReduxTolkitAppPage />} />
+        <Route
+          path="todoreduxtoolkitasync"
+          element={<TodoReduxToolkitAsyncPage />}
+        />
 
         <Route path="examlenav" element={<ExamleNav />} />
         <Route path="examlenav/:dogId" element={<ExamleNavDetails />}>
